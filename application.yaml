@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      config:
+        enabled: true
+        acl-token: cdadb185-cb0b-00bd-06c5-0c122a6f0792
